@@ -21,5 +21,6 @@ int main()
         //mendapat setiap karakter dalam satu baris
         getline(cin, baris);
         //kondisi false jika baris hanya berisi  karakter q
+        if (baris == "q") break;
     }
 }
