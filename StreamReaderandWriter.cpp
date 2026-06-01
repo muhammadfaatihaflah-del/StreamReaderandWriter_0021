@@ -39,7 +39,10 @@ int main()
     //kondisi jika file ada
     if (infile.is_open())
     {
-        
+        //perulangan untuk memunculkan setip baris
+        while (getline(infile, baris)) {
+            cout << baris << endl;
+        }
     }    
 
 
